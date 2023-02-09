@@ -1,0 +1,36 @@
+/******************************************************************************
+    
+        Hacer un programa que pida 3 numeros y te diga cual es el mayor
+        y cual el menor (7,1,3) mayor =7, menor= 1
+
+*******************************************************************************/
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int numero;
+    int numero1;
+    int numero2;
+    int numero3;
+    cout<<"Ingrese el primer numero: ";
+    cin>>numero1;
+    cout<<"Ingrese el segundo numero: ";
+    cin>>numero2;
+    cout<<"Ingrese el tercer numero: ";
+    cin>>numero3;
+    
+    if(numero1 > numero2 && numero1 > numero3)
+    {
+        cout<<"Mayor = "<<numero1<<endl;
+    }
+    else if (numero2 > numero1 && numero2 > numero3)
+    {
+         cout<<"Mayor ="<<numero2<<endl;
+    }
+    else (numero3 > numero1 && numero3 > numero2);
+         cout<<"Menor ="<<numero3<<endl;
+    return 0;
+}
