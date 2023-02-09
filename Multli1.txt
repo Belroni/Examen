@@ -1,0 +1,45 @@
+/******************************************************************************
+
+        Hacer un programa que muestre la tabla de multiplicar
+        del numero ingresado por el usuario 
+        7, 7x1 = 7, 7x2= 14, 7x3=21 ... 7x10
+
+*******************************************************************************/
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int resultado; 
+    int resultado1;
+    int resultado2;
+    int resultado3;
+    int resultado4;
+    int resultado5;
+    int resultado6;
+    int resultado7;
+    int resultado8;
+    int resultado9;
+    int numero;
+    
+    cout<<"Ingrese el numero: ";
+    cin>>numero;
+    
+    resultado= numero * 1; 
+    resultado1= numero * 2;
+    resultado2= numero * 3;
+    resultado3= numero * 4;
+    resultado4= numero * 5;
+    resultado5= numero * 6;
+    resultado6= numero * 7;
+    resultado7= numero * 8;
+    resultado8= numero * 9;
+    resultado9= numero * 10;
+ 
+    cout<<resultado<<endl;
+    cout<<resultado1<<endl<<resultado2<<endl<<resultado3<<endl<<resultado4<<endl<<resultado5<<endl<<resultado6
+    <<endl<<resultado7<<endl<<resultado8<<endl<<resultado9<<endl; 
+    return 0;
+}
