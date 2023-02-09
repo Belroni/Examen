@@ -1,0 +1,31 @@
+/******************************************************************************
+
+        Hacer un programa que calcule la edad del usuario,
+        a partir de su fecha de nacimiento(dia, mes, año) 
+        6, 10, 1985 = Tu edad es 35
+
+*******************************************************************************/
+#include <stdio.h>
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+ 
+    int resultado; 
+    int dia;
+    int mes;
+    int año;
+    
+    cout<<"Ingrese su día de nacimiento: ";
+    cin>>dia;
+    cout<<"Ingrese el mes de nacimiento: ";
+    cin>>mes;
+    cout<<"Ingrese el año de nacimiento: ";
+    cin>>año;
+
+    resultado= 2023 - año;
+    cout<<dia<<", "<<mes<<", "<<año<<" "<<"Tu edad es: "<<resultado; 
+    return 0;
+}
