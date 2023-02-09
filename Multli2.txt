@@ -1,0 +1,30 @@
+/******************************************************************************
+
+    Funciones:
+    Hacer un programa que muestre la tabla de multiplicar
+    del numero ingresado por el usuario 
+    7, 7x1 = 7, 7x2= 14, 7x3=21 ... 7x10
+
+*******************************************************************************/
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int resultado; 
+    int numero;
+    int i;
+    
+        cout<<"Ingrese el numero: ";
+    cin>>numero;
+    
+    
+     for(int i=1; i<=10; i++){
+       resultado= numero * i; 
+        cout<<resultado<<endl;
+    }
+    
+    return 0;
+}
